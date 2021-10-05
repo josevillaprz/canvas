@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'open sans', helvetica, arial;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+Form{
+    background: #0066ff;
+    border-radius: 10px;
+    padding: 40px 0;
+    width: 350px;
+    display: inline;
+    float: left;
+}
+
+/* form */
+h1{
+    color: lightgray;
+    font-size: 20px;
+    text-align: center;
+}
+Form div {
+    width: 50%;
+    margin: 12px auto;
+}
+
+/* grade input*/
+Form input{
+    width: 50px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #fff;
+
+}
+
+Form label{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 0 6px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+/* button */
+#buttons label {
+    display: none;
+}
+
+#submit {
+    background-color: rgb(104, 170, 255);
+    border: #fff;
+    color: #fff;
+    margin-top: 20px;
+    width: 60px;
+}
+
+#submit:active {
+    background-color: rgb(56, 135, 255);
+}
+
+
+/* alert */
+#alert p{
+    display: none;
+    max-width: 100%;
+    background-color: #ff4a2a;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* canvas */
+#canvas {
+    float: left;
+    width: 50%;
+    margin: 10px
+}
+

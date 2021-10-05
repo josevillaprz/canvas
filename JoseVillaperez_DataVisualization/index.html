@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <!-- Alert Div -->
+    <div id="alert">
+        <p></p>
+    </div>
+    <!-- Form input -->
+    <Form>
+        <h1>Enter Grades:</h1>
+        <div>
+            <label for="gradeOne">1</label>
+            <input type="number" id="gradeOne" name="gradeOne" min="0" max="100">
+        </div>
+        <div>
+            <label for="gradeTwo">2</label>
+            <input type="number" id="gradeTwo" name="gradeTwo" min="0" max="100">
+        </div>
+        <div>
+            <label for="gradeThree">3</label>
+            <input type="number" id="gradeThree" name="gradeThree" min="0" max="100">
+        </div>
+        <!-- Button -->
+        <div id="buttons">
+            <label for="submit">Submit:</label>
+            <input type="button" id="submit" name="submit" value="Submit">
+        </div>
+    </Form>
+
+    <!-- canvas -->
+    <div>
+        <canvas id='canvas' width=350 height=250></canvas>
+    </div>
+    <script type="text/javascript" src="utils.js"></script>
+    <script src="main.js" type="text/javascript" defer></script>
+</body>
+    
+</html>
